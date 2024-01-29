@@ -2,8 +2,8 @@
   "name": "curso_ebac_-atv_mod22_parcel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "build": "parcel build src/index.html",
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/run.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +12,6 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.11.0",
-    "parcel": "^2.11.0",
-    "sharp": "^0.31.3"
+    "parcel": "^2.11.0"
   }
 }
