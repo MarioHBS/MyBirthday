@@ -1,0 +1,15 @@
+@use '../vars';
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: no-wrap;
+
+    &--primary {
+        color: #000;
+        background-color: vars.$buttonBg;
+    }
+}

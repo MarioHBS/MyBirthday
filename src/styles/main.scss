@@ -1,0 +1,23 @@
+@use 'hero';
+@use 'vars';
+@use 'auxiliary/button';
+@use 'auxiliary/infos_bar';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    list-style: none;
+    color: vars.$primaryTextColor;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contador {
+    cursor: pointer;
+}

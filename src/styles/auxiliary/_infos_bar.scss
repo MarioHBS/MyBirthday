@@ -1,0 +1,28 @@
+@use '../vars';
+
+.infos-bar {
+    padding: 16px 24px;
+    background-color: vars.$infosBackground;
+    // opacity: .8;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+
+    &__infos {
+        display: flex;
+        gap: 30px;
+
+        &__item {
+            font-size: 14px;
+            color: vars.$weakTextColor;
+
+            b {
+                display: block;
+                margin-bottom: 8px;
+                color: vars.$primaryTextColor;
+                font-size: 18px;
+            }
+        }
+    }
+}
